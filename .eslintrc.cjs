@@ -16,6 +16,7 @@ module.exports = {
   plugins: ["react"],
   rules: {
     "no-unused-vars": "warn",
-    'no-undef': 'off'
+    "no-undef": "off",
+    "react/prop-types": "off",
   },
 };
