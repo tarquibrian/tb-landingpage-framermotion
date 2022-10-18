@@ -1,5 +1,7 @@
+import ScrollToTop from "./components/ScrollToTop";
 import About from "./sections/About";
 import Blogs from "./sections/Blogs";
+import Footer from "./sections/Footer";
 import Starter from "./sections/Starter";
 import Testimonials from "./sections/Testimonials";
 import Why from "./sections/Why";
@@ -7,11 +9,13 @@ import Why from "./sections/Why";
 function App() {
   return (
     <div>
+      <ScrollToTop />
       <Starter />
       <About />
       <Why />
       <Testimonials />
       <Blogs />
+      <Footer />
     </div>
   );
 }
