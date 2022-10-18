@@ -5,7 +5,7 @@ import "../styles/sections/Why.scss";
 
 const Why = () => {
   return (
-    <div className="why-container">
+    <div className="why-container" id="services">
       <div className="container">
         <div className="top">
           <Title title="Why CRYO?" color="pink" lineCenter={true} />
